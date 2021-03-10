@@ -1,25 +1,30 @@
 import logo from './logo.svg';
-import './App.css';
+import { React, Component } from 'react';
+// import './App.css';
+import MiniDrawer from './Component/Nav'
+import TopGraph from './Component/TopGraph'
+import AreaGraph from './Component/AreaGraph'
+import { Redirect, Switch } from "react-router";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { render } from '@testing-library/react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    // function App() {
+    return (
+      <div className="App">
+        <Router >
+          <Switch>
+            <Route exact path='/' component={MiniDrawer}>
+              <MiniDrawer />
+            </Route>
+            <Route path='/graph' component={TopGraph} />
+            <Route path='/AreaGraph' component={AreaGraph} />
+          </Switch>
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;
