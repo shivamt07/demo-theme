@@ -65,6 +65,7 @@ class LineRechartComponent extends React.Component {
     render() {
         return (
                 <LineChart width={400} height={250} data={this.data}
+                style={{width:"100%"}}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     {/* <CartesianGrid strokeDasharray="3 3" /> */}
                     <XAxis dataKey="name" />

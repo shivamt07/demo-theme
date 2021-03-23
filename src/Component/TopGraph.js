@@ -51,6 +51,7 @@ export default class Example extends PureComponent {
           
         {/* <div className="chart-style"> */}
       <BarChart
+      style={{width:"100%"}}
         width={330}
         height={150}
         data={data}

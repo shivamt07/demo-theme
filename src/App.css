@@ -16,7 +16,12 @@
 body{
   overflow-x: hidden;
 }
-
+.recharts-surface{
+  width: 100%;
+}
+.recharts-wrapper{
+  width: 100%;
+}
 .MuiDrawer-paper {
   background-color: black;
   top: 0;
@@ -36,27 +41,27 @@ body{
 }
 
 .num{
-  font-size: 163px
+  font-size: 105px;
 }
 
 .card-style{
   /* width: 17%; */
-  padding: 12px 32px 12px 12px;
+  padding: 12px 12px 12px 12px;
   /* margin-left: 40px; */
 }
 .card-middle-style{
   /* margin-left: 40px; */
   /* width: 60%; */
-  padding: 12px 32px 12px 12px;
+  padding: 12px 12px 12px 12px;
 }
 .card-third-style{
   /* width: 17%; */
-  padding: 12px 32px 12px 12px;
+  padding: 12px 12px 12px 12px;
   margin-left: 40px;
 }
 
 .card-right{
-  padding: 12px 32px 12px 12px;
+  padding: 12px 12px 12px 12px;
   /* margin-left: 40px; */
   height: 37%;
 }
@@ -209,7 +214,7 @@ text[Attributes] {
 }
 
 .bartool{
-  width: 3.5% !important;
+  width: 4% !important;
   height: 100% !important;
   background-color: #fcfcfe !important;
  
@@ -240,14 +245,16 @@ text[Attributes] {
 } */
 
 .MuiFormControl-root {
-  top: 843px !important;
-  position: absolute !important;
+  /* top: 843px !important;
+  position: absolute !important; */
+  position: fixed !important;
+  top: 600px !important;
 }
 
-.MuiTableContainer-root {
+/* .MuiTableContainer-root {
  margin-left: 44px;
 
-}
+} */
 
 .MuiFilledInput-root {
   background-color: rgb(255, 255, 255) !important;
@@ -279,7 +286,7 @@ text[Attributes] {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
     margin-top: 8px !important;
-    height: 1000px;
+    /* height: 1000px; */
   }
 
   .chatbar{
@@ -295,3 +302,25 @@ text[Attributes] {
 /* .MuiBox-root{
   display: none;
 } */
+
+.MuiBox-root-48 {
+  padding: 8px !important;
+}
+
+@media (min-width: 600px){
+.MuiTab-root {
+    min-width: 0px !important;
+}
+.makeStyles-drawerClose-11 {
+  width: 61px;
+}
+}
+
+@media (min-width: 600px){
+
+.MuiGrid-grid-sm-2 {
+    flex-grow: 0;
+    max-width: 21.666667% !important;
+    flex-basis: 16.666667%;
+}
+}

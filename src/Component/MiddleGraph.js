@@ -40,6 +40,7 @@ export default class Example extends Component{
         </div>
         </div> */}
         <AreaChart
+           style={{width:"100%"}}
           width={1150}
           height={400}
           data={data}

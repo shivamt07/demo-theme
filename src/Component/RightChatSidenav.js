@@ -27,7 +27,7 @@ import boy from './../boy.jpg';
 import Grid from "@material-ui/core/Grid"
 import Badge from '@material-ui/core/Badge';
 
-const drawerWidth = 400;
+const drawerWidth = 300;
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -154,28 +154,33 @@ export default function PersistentDrawerRight() {
 
                 </Toolbar>
                 <Grid item xs={2} sm={2} className="chatbar">
-                        <Badge badgeContent={4} color="primary">
-                            <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        </Badge>
-
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <Badge badgeContent={1} color="primary">
-                            <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        </Badge>
-
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
                         <Badge badgeContent={2} color="primary">
-                            <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
+                            <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
                         </Badge>
 
+                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <Badge badgeContent={1} color="primary">
+                            <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        </Badge>
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+
+                        {/* <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} /> */}
+                        {/* <Badge badgeContent={2} color="primary">
+                            <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        </Badge> */}
+
+                        {/* <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} /> */}
+                        {/* <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
                         <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} /> */}
                         {/* <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "114px", marginBottom: "15px" }} />
                         <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "114px", marginBottom: "5px" }} /> */}
                         {/* <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "114px", marginBottom: "5px"  }} />
@@ -198,9 +203,9 @@ export default function PersistentDrawerRight() {
                     <IconButton onClick={handleDrawerClose} style={{ backgroundColor: "#172836", borderRadius: "none", color: "white" }}>
                         {theme.direction === 'rtl' ? <ChatOutlinedIcon /> : <ChatOutlinedIcon />}
                     </IconButton>
-                    <Typography paragraph style={{ marginLeft:"100px" }}>
+                    <div paragraph style={{ marginLeft:"130px" , fontSize:"20px" }}>
         Team Chat
-        </Typography>
+        </div>
                 </div>
               
                 <Divider />
@@ -211,28 +216,25 @@ export default function PersistentDrawerRight() {
 
                 <Grid container spacing={2}>
                     <Grid item xs={2} sm={2} className="user">
-                        <Badge badgeContent={4} color="primary">
-                            <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
+                    <Badge badgeContent={2} color="primary">
+                            <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
                         </Badge>
 
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
                         <Badge badgeContent={1} color="primary">
-                            <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
+                            <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
                         </Badge>
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "44px", borderRadius: "100%", marginBottom: "15px" }} />
 
+                        {/* <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
                         <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
                         <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <Badge badgeContent={2} color="primary">
-                            <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        </Badge>
-
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
-                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} />
+                        <img src={boy} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "100%", marginBottom: "15px" }} /> */}
                         {/* <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "114px", marginBottom: "15px" }} />
                         <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "114px", marginBottom: "5px" }} /> */}
                         {/* <img src={eye} id="eye3" style={{ color: 'white', position: "relative", top: "2px", width: "54px", borderRadius: "114px", marginBottom: "5px"  }} />
@@ -242,8 +244,8 @@ export default function PersistentDrawerRight() {
 
                     </Grid>
 
-                    <Grid item xs={10} sm={10}>
-                        <div style={{ padding: "10px" }}>
+                    <Grid item xs={10} sm={9}>
+                        <div style={{ padding: "10px" }} style={{ marginBottom: "45px" , marginTop: "10px" , overflowY: "auto" }}>
                             {chatArray.length > 0 ? displayChatCard() : null}
                         </div>
 

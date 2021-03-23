@@ -53,6 +53,7 @@ export default class Example extends PureComponent {
         width={330}
         height={150}
         data={data}
+        style={{width:"100%"}}
         margin={{
           top: 5, right: 30, left: 20, bottom: 5,
         }}

@@ -26,7 +26,7 @@ export default class Example extends PureComponent {
   render() {
     return (
         <Card  className="card-right">
-      <PieChart width={700} height={400}>
+      <PieChart width={400} height={400}  style={{width:"100%"}}>
         {/* <Pie data={data01} dataKey="value" cx={200} cy={200} outerRadius={60} fill="white" /> */}
         <Pie data={data02} dataKey="value" cx={230} cy={200} innerRadius={120} outerRadius={150} fill="#020828" label />
       </PieChart>

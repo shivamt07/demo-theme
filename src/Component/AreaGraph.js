@@ -30,16 +30,17 @@ export default class Example extends Component {
                 <Typography paragraph style={{ color: 'white' }}>
                     Visitors
               </Typography>
-                <div className="area-text" paragraph paragraph style={{ marginTop: '-30px' }}>
+                <div className="area-text" paragraph paragraph >
                     Unique visitors by month
               </div>
                 <AreaChart
                     id="area"
+                    // style={{}}
                     width={1540}
-                    height={400}
+                    height={300}
                     data={data}
                     margin={{ top: 10, right: 30, left: 30, bottom: 0 }}
-                    style={{ backgroundColor: '#172836' }}
+                    style={{ backgroundColor: '#172836' ,width:"100%" }}
                 >
                     {/* <CartesianGrid strokeDasharray="3 3" /> */}
                     <XAxis dataKey="name" className="x-axis" />

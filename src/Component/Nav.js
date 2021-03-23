@@ -144,7 +144,14 @@ export default function MiniDrawer() {
     document.getElementById("mainid").style.marginLeft = "0px";
     document.getElementById("lefticon").style.marginLeft = "230px";
     document.getElementById("righticon").style.left = "1159px";
+    document.getElementById("pin").style.color = "red";
     // document.getElementById("area").style.width = "1540";
+    if (keepopen == true) {
+      document.getElementById("pin").style.color = "red";
+    }
+     else{
+      document.getElementById("pin").style.color = "white";
+    }
     return keepopen
   }
 
@@ -299,7 +306,7 @@ export default function MiniDrawer() {
               <Map />
             </Grid>
             <Grid item xs={4} sm={4}>
-              <Grid item xs={11} sm={11}>
+              <Grid item xs={11} sm={12}>
                 <Typography paragraph>
                   What are your Top devices?
         </Typography>
@@ -313,7 +320,7 @@ export default function MiniDrawer() {
         </Typography>
                 <RightLast />
               </Grid>
-              <Grid item xs={1} sm={1}>
+              <Grid item xs={1} sm={12}>
               </Grid>
             </Grid>
           </Grid>

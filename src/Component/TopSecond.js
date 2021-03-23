@@ -98,6 +98,7 @@ class LineRechartComponent extends React.Component {
   <TrendingUpIcon style={{color:"#0ee50e" }}/> 12% of Target
   </div>
             <LineChart width={330} height={150} data={this.data}
+              style={{width:"100%"}}
                 margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 {/* <CartesianGrid strokeDasharray="3 3" /> */}
                 {/* <XAxis dataKey="name" /> */}

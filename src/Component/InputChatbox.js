@@ -19,9 +19,9 @@ const useStyles = makeStyles((theme) => ({
     withoutLabel: {
         marginTop: theme.spacing(3),
     },
-    textField: {
-        width: '50ch',
-    },
+    // textField: {
+    //     width: '50ch',
+    // },
 }));
 
 export default function InputAdornments(props) {
@@ -48,8 +48,8 @@ export default function InputAdornments(props) {
 
 
     return (
-        <div className={classes.root}>
-            <div>
+        // <div className={classes.root}>
+        //     <div>
 
                 <FormControl className={clsx(classes.margin, classes.textField)} variant="filled">
                     <FilledInput
@@ -77,7 +77,7 @@ export default function InputAdornments(props) {
                     />
                 </FormControl>
 
-            </div>
-        </div>
+        //     </div>
+        // </div>
     );
 }
