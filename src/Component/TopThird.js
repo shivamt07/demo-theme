@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react';
 import {
-  BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+  BarChart, Bar,
+  //  Cell, XAxis, YAxis, CartesianGrid, 
+   Tooltip, Legend,
 } from 'recharts';
 import Card from '@material-ui/core/Card';
 import './../App.css';

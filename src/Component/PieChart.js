@@ -1,13 +1,15 @@
 import React, { PureComponent } from 'react';
 // import PieChart from '@bit/recharts.recharts.pie-chart';
-import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
+import { PieChart, Pie,
+  //  Cell, Tooltip, Legend 
+  } from 'recharts';
 // import Pie from '@bit/recharts.recharts.pie';
 import Card from '@material-ui/core/Card';
 import Table from './Table'
-const data01 = [
-  { name: 'Group A', value: 400 }, { name: 'Group B', value: 300 },
-  { name: 'Group C', value: 300 }, { name: 'Group D', value: 200 },
-];
+// const data01 = [
+//   { name: 'Group A', value: 400 }, { name: 'Group B', value: 300 },
+//   { name: 'Group C', value: 300 }, { name: 'Group D', value: 200 },
+// ];
 const data02 = [
   { name: 'A1', value: 930 },
   { name: 'A2', value: 60 },

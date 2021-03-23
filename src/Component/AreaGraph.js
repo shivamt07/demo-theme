@@ -3,7 +3,9 @@ import Typography from '@material-ui/core/Typography';
 
 
 import {
-    AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip
+    AreaChart, Area, XAxis, 
+    // YAxis, CartesianGrid,
+     Tooltip
 } from 'recharts';
 
 // const { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } = Recharts;

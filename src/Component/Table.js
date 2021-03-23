@@ -51,14 +51,14 @@ const DecreaseItem = () => {
     }
   });
 }
-const ToggleClick = () => {
-  this.setState({
-    show: !this.state.show
-  });
-}
-const handleChange = (event) => {
-  this.setState({quantity: event.target.value});
-}
+// const ToggleClick = () => {
+//   this.setState({
+//     show: !this.state.show
+//   });
+// }
+// const handleChange = (event) => {
+//   this.setState({quantity: event.target.value});
+// }
 
   return (
     <TableContainer>

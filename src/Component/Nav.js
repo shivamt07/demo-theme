@@ -5,38 +5,38 @@ import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
-import CssBaseline from '@material-ui/core/CssBaseline';
+// import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+// import Divider from '@material-ui/core/Divider';
+// import IconButton from '@material-ui/core/IconButton';
+// import MenuIcon from '@material-ui/icons/Menu';
+// import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+// import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
-import HeightIcon from '@material-ui/icons/Height';
-import onClickOutside from "react-onclickoutside";
+// import HeightIcon from '@material-ui/icons/Height';
+// import onClickOutside from "react-onclickoutside";
 import AreaGraph from './AreaGraph';
 import TopGraph from './TopGraph'
 import MiddleGraph from './MiddleGraph'
 import TopThird from './TopThird'
-import TopSecond from './TopSecond'
+// import TopSecond from './TopSecond'
 import LineCharts from './LineCharts'
 import PieChart from './PieChart'
 import RightSecond from './RightSecond'
 import RightLast from './RightLast'
 import Footer from './Footer'
 import RightChatSidenav from './RightChatSidenav'
-import NavTabs from './NavTabs'
+// import NavTabs from './NavTabs'
 import Map from './Map'
 import './../App.css';
 import Grid from "@material-ui/core/Grid"
-import Pin from './../pin.png';
+// import Pin from './../pin.png';
 import eye from './../eye.jpg';
-import { mdiPin } from '@mdi/js';
+// import { mdiPin } from '@mdi/js';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import AccountBoxOutlinedIcon from '@material-ui/icons/AccountBoxOutlined';
 import CheckBoxOutlinedIcon from '@material-ui/icons/CheckBoxOutlined';
@@ -46,7 +46,7 @@ import CenterFocusStrongIcon from '@material-ui/icons/CenterFocusStrong';
 import SearchIcon from '@material-ui/icons/Search';
 import BookmarksOutlinedIcon from '@material-ui/icons/BookmarksOutlined';
 
-const drawerWidth = 250;
+const drawerWidth = 220;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -238,14 +238,14 @@ export default function MiniDrawer() {
           onMouseLeave={handleDrawerClose}
         >
 
-          <div className={classes.toolbar} style={{ backgroundColor: '#172836', minHeight: "220px" }} >
+          <div className={classes.toolbar} style={{ backgroundColor: '#172836', minHeight: "170px" }} >
             <i class="fa fa-thumb-tack" onClick={freezeonclick} aria-hidden="true" id="pin" style={{ color: 'white', width: "28px", display: "none", position: "relative", top: "-67px", left: "200px" }}></i>
             <div className="prof" id="prof">
               <div>John doe</div>
               {/* <div>Johndoe@qainfotech.com</div> */}
             </div>
             <img src={eye} id="eye" style={{ color: 'white', position: "relative", top: "2px", left: "-4px", width: "54px", borderRadius: "114px" }} />
-            <img src={eye} id="eye2" style={{ color: 'white', position: "relative", top: "106px", right: "80px", width: "94px", borderRadius: "114px", display: "none" }} />
+            <img src={eye} id="eye2" style={{ color: 'white', position: "relative", top: "83px", right: "60px", width: "94px", borderRadius: "114px", display: "none" }} />
           </div>
 
           {/* <List >

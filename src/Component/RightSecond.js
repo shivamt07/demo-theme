@@ -1,5 +1,5 @@
 import React from "react";
-import { LineChart, Line, YAxis, XAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+// import { LineChart, Line, YAxis, XAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import Card from '@material-ui/core/Card';
 import Tabs from './Tabs'
 class LineRechartComponent extends React.Component {
